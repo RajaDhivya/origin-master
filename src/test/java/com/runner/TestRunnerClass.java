@@ -9,8 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(tags = "@Login",
 features = "src\\test\\resources\\Features", 
 glue = "com\\stepdefinition", 
-dryRun = false,
-monochrome = true)
+dryRun = false)
 
 public class TestRunnerClass {
 
