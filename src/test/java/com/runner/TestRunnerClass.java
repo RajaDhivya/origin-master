@@ -10,7 +10,9 @@ import io.cucumber.junit.CucumberOptions;
 features = "src\\test\\resources\\Features", 
 glue = "com\\stepdefinition", 
 dryRun = false,
-monochrome = true)
+monochrome = true,
+stepNotifications = true,
+plugin="pretty")
 
 public class TestRunnerClass {
 
